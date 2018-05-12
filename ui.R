@@ -18,7 +18,7 @@ shinyUI(navbarPage("Diamonds",
                                     "Price" = "price"
                                   ) # End of list
                                 ), # End of select input
-                                
+
                                 # Select y variable
                                 selectInput(
                                   "y_var",
@@ -32,7 +32,7 @@ shinyUI(navbarPage("Diamonds",
                                     "Depth" = "depth"
                                   ) # End of list
                                 ), # End of select input
-                                
+
                                 # Select dot colour
                                 selectInput(
                                   "colour",
@@ -45,7 +45,7 @@ shinyUI(navbarPage("Diamonds",
                                   ) # End of list
                                 ) # End of select input
                               ), # End of sidebar panel
-                              
+
                               # Main panel: display plotly map
                               mainPanel(
                                 plotOutput("plot")
